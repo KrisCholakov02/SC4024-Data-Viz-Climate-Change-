@@ -1,0 +1,25 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Base cube -->
+    <rect x="10" y="10" width="80" height="80" fill="lightblue" stroke="#0077b6" stroke-width="3" rx="8" ry="8" />
+
+    <!-- Ice shading -->
+    <rect x="14" y="14" width="72" height="72" fill="url(#grad1)" rx="6" ry="6" />
+    
+    <!-- Ice cracks -->
+    <path d="M 20 30 Q 25 35 30 30 T 40 30" stroke="#005f73" stroke-width="1.5" fill="none" />
+    <path d="M 50 50 Q 55 55 60 50 T 70 50" stroke="#005f73" stroke-width="1.5" fill="none" />
+
+    <!-- Ice texture dots -->
+    <circle cx="25" cy="45" r="1" fill="#0077b6" />
+    <circle cx="45" cy="25" r="1" fill="#0077b6" />
+    <circle cx="70" cy="60" r="1" fill="#0077b6" />
+    <circle cx="55" cy="75" r="1" fill="#0077b6" />
+    
+    <!-- Gradient definition -->
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#b3e0f2;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#89c2d9;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+</svg>

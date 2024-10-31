@@ -1,0 +1,30 @@
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+    <!-- Wood grain pattern definition -->
+    <defs>
+        <pattern id="woodGrainPattern" patternUnits="userSpaceOnUse" width="20" height="20">
+            <path d="M0,10 Q10,-5 20,10 T40,10" fill="none" stroke="#7b4511" stroke-width="1"/>
+            <path d="M10,0 Q20,15 30,0" fill="none" stroke="#7b4511" stroke-width="0.5"/>
+        </pattern>
+        <linearGradient id="tableGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#8B5A2B; stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#5E2E1C; stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- Table top surface with wood grain pattern -->
+    <rect x="50" y="50" width="500" height="30" fill="url(#tableGradient)" />
+    <rect x="50" y="50" width="500" height="30" fill="url(#woodGrainPattern)" opacity="0.5"/>
+
+    <!-- Table top edges with wood gradient for depth -->
+    <line x1="50" y1="80" x2="550" y2="80" stroke="#6E4B28" stroke-width="3"/>
+    <line x1="50" y1="50" x2="550" y2="50" stroke="#6E4B28" stroke-width="3"/>
+
+    <!-- Wood knots for additional detail -->
+    <circle cx="120" cy="65" r="2" fill="#7b4511" opacity="0.8"/>
+    <circle cx="200" cy="70" r="3" fill="#5E2E1C" opacity="0.8"/>
+    <circle cx="400" cy="60" r="2" fill="#7b4511" opacity="0.8"/>
+
+    <!-- Table legs -->
+    <rect x="80" y="80" width="20" height="100" fill="url(#tableGradient)" />
+    <rect x="500" y="80" width="20" height="100" fill="url(#tableGradient)" />
+</svg>
