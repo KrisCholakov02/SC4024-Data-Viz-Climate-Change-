@@ -7,6 +7,11 @@ This project focuses on creating engaging and interactive **data visualizations*
 3. **Global Consequences** – Understanding the wide-ranging effects of climate change and their feedback into human life.
 4. **A Sustainable Future** – Tracking the progress of sustainability efforts and evaluating their effectiveness.
 
+## 🎥 Video Presentation
+📺 **Watch the project video** on YouTube:  
+[![Watch the video](https://img.youtube.com/vi/64C3F0kX-IU/0.jpg)](https://youtu.be/64C3F0kX-IU)  
+🔗 **Link:** [https://youtu.be/64C3F0kX-IU](https://youtu.be/64C3F0kX-IU)  
+
 ## 🎨 Novelty & Key Contributions
 This project introduces several **novel visualizations** to enhance user engagement and insight discovery:
 - **Custom SVG-based Animated Plots**:  
@@ -72,16 +77,13 @@ Ensure you have Python and the required libraries installed. You can set up the 
 ```bash
 pip install pandas numpy matplotlib seaborn plotly geopandas geopy
 ```
-### 2️⃣ Run Visualization Scripts
-Execute the Python scripts or Jupyter Notebooks to generate visualizations:
-```bash
-python visualization_script.py
-```
-or
-```bash
-jupyter notebook
-```
-and open the relevant notebooks.
+### 2️⃣ Run the Visualization Notebook
+- Open **Jupyter Notebook**:
+  ```bash
+  jupyter notebook
+  ```
+- In the notebook interface, open **`main.ipynb`**.
+- **Run each section sequentially** to generate the visualizations.
 
 ## 🏆 Conclusion
 This project leverages **advanced data visualization techniques** to uncover key **climate change insights**. By integrating **interactive animations, 3D visualizations, and geospatial data**, it provides an engaging way to **explore environmental challenges and trends**.
